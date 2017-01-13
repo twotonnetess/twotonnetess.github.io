@@ -4,6 +4,64 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+	    	<style type="text/css" media="screen">
+		     div#banner { 
+		       position: absolute; 
+		       top: 0; 
+	      	       left: 0; 
+		       background-color: #E1E7F1; 
+		       width: 100%; 
+	     		}
+		     div#banner-content { 
+		       width: 800px; 
+		       margin: 0 auto; 
+		       padding: 10px; 
+		       border: 1px solid #000;
+		     }
+		     div#main-content { 
+		       padding-top: 70px;
+		    }
+
+
+		#top, #bottom, #left, #right {
+			background: #666666;
+			}
+			#left, #right {
+				position: fixed;
+				top: 0; bottom: 0;
+				width: 15px;
+				}
+				#left { left: 0; }
+				#right { right: 0; }
+				
+			#top, #bottom {
+				position: fixed;
+				left: 0; right: 0;
+				height: 15px;
+				}
+				#top { top: 0; }
+				#bottom { bottom: 0; }
+				
+		@media 
+		
+		/* Fairly small screens including iphones */
+		only screen and (max-width: 500px),
+		
+		/* iPads */
+		only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+		
+		{
+			#top, #bottom, #left, #right { display: none; }
+		}
+	</style>
+	
+	<!--[if lte IE 6]>
+		<style>#top, #bottom, #left, #right { display: none; }</style>
+	<![endif]-->
+
+	    </style>
+
 		</head>
 		<body>
 			<nav>
@@ -11,18 +69,29 @@
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
 	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
+	        		<li><a href="/publications">Publications</a></li>
+				<li><a href="/communications">Communications</a></li>
+				<li><a href="/blog">Blog</a></li>
 				<li><a style="float:right" href="mailto:costigag@gmail.com">Gr&aacuteinne Costigan </a> </li>
 
 	    		</ul>
-
+			
 			</nav>
+			<HR color=#336699 NOSHADE >
 			<div class="container">
 			
 			{{ content }}
 			
 			</div><!-- /.container -->
+			<HR color=#336699 NOSHADE >
+
+			<div id="left"></div>
+			<div id="right"></div>
+			<div id="top"></div>
+			<div id="bottom"></div>
+
 			<footer>
+
 	    		<ul>
 	        		<li><a href="mailto:costigag@gmail.com">email</a></li>
 	        		<li><a href="https://github.com/twotonnetess">github.com/twotonnetess</a></li>
