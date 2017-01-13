@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Grainne is the boss
+title: G. Costigan
 ---
 
 
