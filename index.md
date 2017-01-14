@@ -4,6 +4,6 @@ title: G. Costigan
 ---
 
 
-# Welcome 
+# Grainne Costigan
 This page contains an update CV with publications, some of my communication work.
 
