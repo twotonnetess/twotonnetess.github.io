@@ -4,6 +4,6 @@ title: G. Costigan
 ---
 
 
-# Grainne Costigan
-This page contains an update CV with publications, some of my communication work.
+# <center> G r a i n n e  &nbsp;   C o s t i g a n </center>
+## <center> Problem Solver, Communicator, Inquisitor, Mermaid. </center>
 
