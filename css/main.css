@@ -24,7 +24,8 @@ h1 {
     font-size: 3em;
     font-family: 'Nunito', sans-serif;
     color: #33333;
-    font-weight:light
+    letter-spacing: 15px;
+    font-weight:light;
 }
 h2 {
     font-family:'Nunito','Helvetica', 'Arial', 'Sans-Serif';
@@ -35,13 +36,55 @@ h3 {
     color: #333;
 }
 
-
+h4{
+    font-family:'Nunito';
+    color: #333;
+    display:inline;
+}
 p {
     font-family: 'Lora';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
+
+
+  ========================================
+Floats for CV
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+position {
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+  font-family:'Nunito','Sans-Serif';
+  color: #333;
+
+
+}
+position_details {
+  float: right;
+  margin: 0 1.5%;
+  width: 60%;
+  font-family:'Nunito','Sans-Serif';
+
+}
+
+
+
+
 
 footer {
     border-top: 1px solid #d5d5d5;
@@ -60,6 +103,7 @@ ul.posts li {
 }
 
 
+<!-- Border 
 
 #top, #bottom, #left, #right {
 	background: #fffffe;
