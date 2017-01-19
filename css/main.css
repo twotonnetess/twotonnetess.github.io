@@ -47,44 +47,6 @@ p {
     color: #333;
 }
 
-
-  ========================================
-Floats for CV
-  ========================================
-*/
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
-}
-position {
-  float: left;
-  margin: 0 1.5%;
-  width: 30%;
-  font-family:'Nunito','Sans-Serif';
-  color: #333;
-
-
-}
-position_details {
-  float: right;
-  margin: 0 1.5%;
-  width: 60%;
-  font-family:'Nunito','Sans-Serif';
-
-}
-
-
-
-
-
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -121,3 +83,72 @@ ul.posts li {
 		}
 		#top { top: 0; }
 		#bottom { bottom: 0; }
+
+
+========================================
+Floats for CV Experience
+========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+  padding-bottom: 5em;
+}
+position {
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+  font-family:'Nunito','Sans-Serif';
+  color: #333;
+  padding-top:1em;
+}
+position_details {
+  float: right;
+  margin: 0 1.5%;
+  width: 60%;
+  font-family:'Nunito','Sans-Serif';
+}
+
+
+========================================
+Floats for CV Experience
+========================================
+*/
+.group_two:before,
+.group_two:after {
+  content: "";
+  display: table;
+}
+.group_two:after {
+  clear: both;
+}
+.group_two {
+  clear: both;
+  *zoom: 1;
+  padding-bottom: 5em;
+}
+date_place{
+  float: left;
+  margin: 0 1.5%;
+  width: 20%;
+  font-family:'Nunito','Sans-Serif';
+  color: #333;
+}
+place_details{
+  float: right;
+  margin: 0 1.5%;
+  width: 70%;
+  font-family:'Nunito','Sans-Serif';
+}
+
+
+
+
