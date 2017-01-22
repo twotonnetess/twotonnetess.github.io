@@ -63,6 +63,18 @@ ul.posts li {
     list-style: none;
 }
 
+figure {
+  float: right;
+  width: 35%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
 
 <!-- Border 
 
@@ -149,6 +161,23 @@ place_details{
   font-family:'Nunito','Sans-Serif';
 }
 
+=====================================
+Publications Explanation
+====================================
+.pub_explan {
+   width:400px;
+   padding:20px;
+   overflow:hidden;
+   text-align: justify;
+   text-justify: inter-word;
+}
 
+.pub_explan img {
+   margin-left:15px;
+   float:left;
+   width: 300px;
+   height:228px;
+   padding:1em;
+}
 
 
