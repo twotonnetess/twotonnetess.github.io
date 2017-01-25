@@ -42,7 +42,7 @@ h4{
 }
 p {
     font-family: 'Nunito';
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.4em;
     color: #333;
 }
@@ -53,6 +53,9 @@ footer {
 }
 
 
+ul {
+    font-family: 'Nunito';
+}
 
 ul.posts { 
     margin: 20px auto 40px; 
