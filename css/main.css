@@ -45,6 +45,7 @@ p {
     font-size: 1em;
     line-height: 1.4em;
     color: #333;
+    text-align:justify;
 }
 
 footer {
@@ -55,6 +56,7 @@ footer {
 
 ul {
     font-family: 'Nunito';
+    text-align: justify;
 }
 
 ul.posts { 
@@ -101,6 +103,39 @@ figcaption {
 		}
 		#top { top: 0; }
 		#bottom { bottom: 0; }
+
+
+
+========================================
+Name and contact for CV
+========================================
+*/
+.group_name:before,
+.group_name:after {
+  content: "";
+  display: table;
+}
+.group_name:after {
+  clear: both;
+}
+.group_name {
+  clear: both;
+  *zoom: 1;
+  padding-bottom: 5em;
+}
+name {
+  float: left;
+  width: 60%;
+  font-family:'Nunito','Sans-Serif';
+  color: #333;
+  font-size: 2.5em;
+}
+contact_under_name {
+  float: right;
+  margin: 0 1.5%;
+  width: 60%;
+  font-family:'Nunito','Sans-Serif';
+}
 
 
 ========================================
