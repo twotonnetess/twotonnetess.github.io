@@ -4,7 +4,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Nunito','Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Nunito';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -22,16 +22,16 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito';
     color: #33333;
     font-weight:light;
 }
 h2 {
-    font-family:'Nunito','Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Nunito';
     color: #333333;
 }
 h3 {
-    font-family:'Nunito','Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Nunito';
     color: #333;
 }
 
@@ -174,18 +174,18 @@ position_details {
 
 
 ========================================
-Floats for CV Experience
+Floats for CV 
 ========================================
 */
-.group_two:before,
-.group_two:after {
+.group_cv:before,
+.group_cv:after {
   content: "";
   display: table;
 }
 .group_two:after {
   clear: both;
 }
-.group_two {
+.group_cv {
   clear: both;
   *zoom: 1;
   padding-bottom: 5em;
