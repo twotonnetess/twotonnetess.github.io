@@ -6,7 +6,7 @@ title: G. Costigan
 
 # <center> Gráinne  &nbsp;   Costigan </center>
 
-<center> <img src="grainne_round.png" alt="Grainne" style="width:304px;" align="middle"> </center>
+<center> <img src="grainne_oval.png" alt="Grainne" style="width:304px;" align="middle"> </center>
 
 
  <b> Gráinne </b> is pronounced <i> Gronya </i>. One of many Irish names that do not travel very well.
