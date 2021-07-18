@@ -250,7 +250,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  github-pages
+  github-pages (~> 207)
 
 BUNDLED WITH
    2.2.24
