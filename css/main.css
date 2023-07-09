@@ -1,5 +1,5 @@
 body {
-    background-color:#f5f5dc;
+    background-color:#ffffff;
     margin: 60px auto;
     width: 70%;
 }
@@ -15,10 +15,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #fe6c19;
 }
 a:hover {
     text-decoration: underline;
+    color: #fe6c19;
 }
 h1 {
     font-size: 3em;
