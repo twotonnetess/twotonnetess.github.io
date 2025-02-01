@@ -8,7 +8,7 @@ title: G. Costigan
 
 <h2> <center> Professionally a data scientist and passionately a sailor.</center> </h2> 
 
-<center> <img src="grainne_boat_2swirls.png" alt="Grainne" style="width:904px;" align="middle"> </center>
+<center> <img src="SEA FEVER_landing.jpg" alt="Grainne" style="width:904px;" align="middle"> </center>
 
 
  <b> Gráinne </b> is pronounced <i> Gronya </i>. One of many Irish names that do not travel very well.
