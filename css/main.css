@@ -15,42 +15,42 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #fe6c19;
+    color: #C5A76B;
 }
 a:hover {
     text-decoration: underline;
-    color: #fe6c19;
+    color: #C5A76B;
 }
 h1 {
     font-size: 3em;
     font-family: 'Nunito';
-    color: #33333;
+    color: #292D29;
     font-weight:light;
 }
 h2 {
     font-family:'Nunito';
-    color: #333333;
+    color: #292D29;
 }
 h3 {
     font-family:'Nunito';
-    color: #333;
+    color: #292D29;
 }
 
 h4{
     font-family:'Nunito';
-    color: #333;
+    color: #292D29;
     display:inline;
 }
 p {
     font-family: 'Nunito';
     font-size: 1em;
     line-height: 1.4em;
-    color: #333;
+    color: #292D29;
     text-align:justify;
 }
 
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid 	#C9C4B8;
     font-size: .8em;
 }
 
@@ -130,7 +130,7 @@ name {
   float: left;
   width: 60%;
   font-family:'Nunito','Sans-Serif';
-  color: #333;
+  color: #292D29;
   font-size: 2.5em;
 }
 contact_under_name {
@@ -163,7 +163,7 @@ position {
   margin: 0 1.5%;
   width: 30%;
   font-family:'Nunito','Sans-Serif';
-  color: #333;
+  color: #292D29;
   padding-top:1em;
 }
 position_details {
