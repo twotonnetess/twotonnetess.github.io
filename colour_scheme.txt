@@ -1,0 +1,6 @@
+Forest green	#0B4916
+Off-white	#FAF9F4
+Warm stone	#C9C4B8
+Sage green	#A6B49A
+Champagne gold	#C5A76B
+Deep charcoal	#292D29
